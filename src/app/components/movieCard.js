@@ -7,7 +7,7 @@ const MovieCard = (elem) => {
   return (
     <div className={Styles.card}>
       <div className={Styles.card_image}>
-        <img
+        <Image
           src={elem.jawSummary.backgroundImage.url}
           alt={title}
           width={260}
