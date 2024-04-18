@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "@/app/styles/common.module.css";
+import Image from "next/image";
 const page = async ({ params }) => {
   const id = params.id;
 
@@ -24,7 +25,7 @@ const page = async ({ params }) => {
         </h2>
         <div className={styles.card_section}>
           <div>
-            <img
+            <Image
               src={main_data.backgroundImage.url}
               alt={main_data.title}
               width={600}
